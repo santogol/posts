@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form input, form textarea, form button {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.post {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.post img {
+  max-width: 100%;
+  margin-top: 10px;
+}
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.comment-section {
+  margin-top: 10px;
+}
+.comment-section input {
+  width: 80%;
+  padding: 5px;
+}
+.comment {
+  font-size: 0.9em;
+  margin-top: 4px;
+}
